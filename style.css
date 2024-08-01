@@ -36,7 +36,7 @@ body {
 
 .heading-bottom {
     font-size: 120px;
-    color: rgba(255,255,255,1);
+    color: rgba(248, 244, 241, 0.9);
     text-align: center;
 }
 
@@ -45,11 +45,14 @@ body {
     flex-direction: column;
     background-image: url("./images/luca-bravo-9l_326FISzk-unsplash.jpg");
     object-fit: contain;
+    z-index: 0;
     background-size: cover;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     
 }
+
+
 
 header {
     background-color: #333;
